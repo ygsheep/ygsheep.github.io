@@ -1,0 +1,28 @@
+/* 背景渐变 */
+#web_bg {
+  background: #eee;
+  /*紫粉渐变*/
+  /*background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);*/
+  /*粉白蓝*/
+}
+#web_bg::before {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.5));
+}
+/*  中间部分 */
+#content-inner {
+  /* 左侧 */
+  /* 右侧 */
+}
+/* 页脚footer */
+#footer {
+  /* 与背景渐变效果一致*/
+  background: #fafafa;
+}
+#footer #footer-wrap {
+  padding: 30px 20px;
+}
+#footer .copyright {
+  color: #aaa;
+}
